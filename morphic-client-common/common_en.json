@@ -1,0 +1,250 @@
+{
+    "Menu": {
+        "Option1": "Customize MorphicBar...",
+        "Option2": "Take Settings With Me...",
+        "Option3": "Hide MorphicBar",
+        "Option4": "Quit Morphic"
+    },
+    "Features": {
+        "TextSize": {
+            "Title": "Text Size",
+            "Buttons": {
+                "Increase": {
+                    "Label": "+",
+                    "Title": "Increase Text Size",
+                    "TooltipTitle": "Increases Text Size everywhere",
+                    "TooltipMessage": "Makes everything on the screen larger",
+                    "LimitTitle": "Text Size cannot go bigger",
+                    "LimitMessage": ""
+                },
+                "decrease": {
+                    "Label": "-",
+                    "tooltip": "Decrease Text Size",
+                    "Title": "Decreases Text Size everywhere",
+                    "message": "Makes everything on the screen smaller",
+                    "LimitTitle": "Text Size cannot go smaller",
+                    "LimitMessage": ""
+                }
+            }
+        },
+        "Magnifier": {
+            "Title": "Magnifier",
+            "Buttons": {
+                "Show": {
+                    "Label": "Show",
+                    "Title": "Show Magnifier",
+                    "TooltipTitle": "Turns on a Magnifying lens",
+                    "TooltipMessage": "Magnifier follows your mouse. Your mouse can click through the box."
+                },
+                "Hide": {
+                    "Label": "Hide",
+                    "Title": "Hide Magnifier",
+                    "TooltipTitle": "Turns off Magnifier",
+                    "TooltipMessage": "To change Magnifier settings, right-click on button."
+                }
+            }
+        },
+        "Volume": {
+            "Title": "Volume",
+            "Buttons": {
+                "Up": {
+                    "Label": "+",
+                    "TooltipTitle": "Increases the volume",
+                    "TooltipMessage": "Makes all sounds louder.",
+                    "LimitTitle": "Volume cannot go louder",
+                    "LimitMessage": ""
+                },
+                "Down": {
+                    "Label": "-",
+                    "TooltipTitle": "Decreases the volume",
+                    "TooltipMessage": "Makes all sounds quieter.",
+                    "LimitTitle": "Volume cannot go quieter",
+                    "LimitMessage": ""
+                }
+            }
+        },
+        "HighContrast": {
+            "Title": "High Contrast",
+            "Buttons": {
+                "On": {
+                    "Label": "On",
+                    "TooltipTitle": "Turns Contrast on",
+                    "TooltipMessage": ""
+                },
+                "Off": {
+                    "Label": "Off",
+                    "TooltipTitle": "Turns Contrast off",
+                    "TooltipMessage": ""
+                }
+            }
+        },
+        "Contrast": {
+            "Title": "High Contrast",
+            "Buttons": {
+                "On": {
+                    "Label": "On",
+                    "TooltipTitle": "Turn On High Contrast",
+                    "TooltipMessage": "Makes it easier for some people to read"
+                },
+                "Off": {
+                    "Label": "Off",
+                    "TooltipTitle": "Turn Off High Contrast",
+                    "TooltipMessage": ""
+                }
+            }
+        },
+        "ReadAloud": {
+            "Title": "Read Aloud",
+            "Buttons": {
+                "Play": {
+                    "Label": "\U25B6",
+                    "Title": "Read Selected Text",
+                    "TooltipTitle": "Reads text that is selected",
+                    "TooltipMessage": "Select text to be read. Then click play button to read. To change settings, right-click on button. Reading controls will pop up."
+                },
+                "Stop": {
+                    "Label": "\U25A0",
+                    "Title": "Stop Reading Selected Text",
+                    "TooltipTitle": "Stops reading",
+                    "TooltipMessage": "To change voice and speed settings, right-click on either button."
+                }
+            }
+        },
+        "Reader": {
+            "Title": "Screen Reader",
+            "Buttons": {
+                "Play": {
+                    "Label": "\U25B6",
+                    "Title": "Read Selected Text",
+                    "TooltipTitle": "Turn On Screen Reader",
+                    "TooltipMessage": "Have the computer read text aloud"
+                },
+                "Stop": {
+                    "Label": "\U25A0",
+                    "Title": "Stop Reading Selected Text",
+                    "TooltipTitle": "Turn Off Screen Reader",
+                    "TooltipMessage": "Stop the computer from reading text aloud"
+                }
+            }
+        },
+        "NightMode": {
+            "Title": "Night Mode",
+            "Buttons": {
+                "On": {
+                    "Label": "On",
+                    "TooltipTitle": "Turns the Night Light feature on",
+                    "TooltipMessage": ""
+                },
+                "Off": {
+                    "Label": "Off",
+                    "TooltipTitle": "Turns the Night Light feature off",
+                    "TooltipMessage": ""
+                }
+            }
+        },
+        "NightShift": {
+            "Title": "Night Mode",
+            "Buttons": {
+                "On": {
+                    "Label": "On",
+                    "TooltipTitle": "Turn On Night Mode",
+                    "TooltipMessage": "Make screen colors warmer for less eye strain and to make it easier to go to sleep"
+                },
+                "Off": {
+                    "Label": "Off",
+                    "TooltipTitle": "Turn Off Night Mode",
+                    "TooltipMessage": ""
+                }
+            }
+        },
+        "CopyPaste": {
+            "Title": "Copy & Paste",
+            "Buttons": {
+                "Copy": {
+                    "Label": "Copy",
+                    "TooltipTitle": "Copies your selection",
+                    "TooltipMessage": "Copies text or other content you have selected so you can paste it somewhere."
+                },
+                "Paste": {
+                    "Label": "Paste",
+                    "TooltipTitle": "Pastes what you copied",
+                    "TooltipMessage": "Inserts copied content where the text cursor is."
+                }
+            }
+        },
+        "ScreenSnip": {
+            "Title": "Copy & Paste",
+            "Buttons": {
+                "Snip": {
+                    "Label": "Snip"
+                },
+                "Copy": {
+                    "Label": "Paste",
+                    "Title": "Snip copy of part of the screen",
+                    "TooltipTitle": "Takes a picture of a selected part of the screen",
+                    "TooltipMessage": "Click Copy. Then click and drag mouse to take picture. Paste into any document."
+                }
+            }
+        },
+        "ColorFilter": {
+            "Title": "Color Vision",
+            "Buttons": {
+                "On": {
+                    "Label": "On",
+                    "TooltipTitle": "Turns Color Blindness filters on",
+                    "TooltipMessage": ""
+                },
+                "Off": {
+                    "Label": "Off",
+                    "TooltipTitle": "Turns Color Blindness filters off",
+                    "TooltipMessage": ""
+                }
+            }
+        },
+        "ColorVision": {
+            "Title": "Color Vision",
+            "Buttons": {
+                "On": {
+                    "Label": "On",
+                    "TooltipTitle": "Turn On Color Vision",
+                    "TooltipMessage": "Changes colors to adapt for color blindness. (Right click to choose type.)"
+                },
+                "Off": {
+                    "Label": "Off",
+                    "TooltipTitle": "Turn Off Color Vision",
+                    "TooltipMessage": "Changes colors to adapt for color blindness. (Right click to choose type.)"
+                }
+            }
+        },
+        "DarkMode": {
+            "Title": "Dark Mode",
+            "Buttons": {
+                "On": {
+                    "Label": "On",
+                    "TooltipTitle": "Turns Dark Mode on",
+                    "TooltipMessage": "Turns Dark Mode on. (Right click to adjust.)"
+                },
+                "Off": {
+                    "Label": "Off",
+                    "TooltipTitle": "Turns Dark Mode off",
+                    "TooltipMessage": "Turns Dark Mode off. (Right click to adjust.)"
+                }
+            }
+        },
+        "USBDrives": {
+            "Title": "USB Drives (All)",
+            "Buttons": {
+                "Open": {
+                    "Label": "Open",
+                    "TooltipTitle": "Open All USB Drives",
+                    "TooltipMessage": "Opens and shows the files of all USB drives plugged into the computer."
+                },
+                "Eject": {
+                    "Label": "Eject",
+                    "TooltipTitle": "Eject All USB Drives",
+                    "TooltipMessage": "Safely ejects all USB drives plugging into this computer."
+                }
+            }
+        }
+    }
+}
